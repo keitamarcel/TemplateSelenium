@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T21:25:17 EEST" name="Suite1" finished-at="2023-04-20T21:25:44 EEST" duration-ms="26932">
+  <suite started-at="2023-04-24T21:49:23 EEST" name="Suite1" finished-at="2023-04-24T21:50:40 EEST" duration-ms="76298">
     <groups>
     </groups>
-    <test started-at="2023-04-20T21:25:17 EEST" name="Login" finished-at="2023-04-20T21:25:44 EEST" duration-ms="26932">
+    <test started-at="2023-04-24T21:49:23 EEST" name="LoginChrome" finished-at="2023-04-24T21:50:26 EEST" duration-ms="62249">
       <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@6c80d78a]" started-at="2023-04-20T21:25:17 EEST" name="setup" finished-at="2023-04-20T21:25:35 EEST" duration-ms="18014" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@44ebcd03]" started-at="2023-04-24T21:49:23 EEST" name="setup" finished-at="2023-04-24T21:49:47 EEST" duration-ms="24021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,26 +23,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="valiodLoginTest()[pri:0, instance:Tests.LoginTest@6c80d78a]" started-at="2023-04-20T21:25:35 EEST" name="valiodLoginTest" finished-at="2023-04-20T21:25:35 EEST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valiodLoginTest -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@6c80d78a]" started-at="2023-04-20T21:25:35 EEST" name="recordFailure" finished-at="2023-04-20T21:25:35 EEST" duration-ms="6" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@44ebcd03]" started-at="2023-04-24T21:49:47 EEST" name="validLoginTest" finished-at="2023-04-24T21:50:20 EEST" duration-ms="32190" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=valiodLoginTest status=SUCCESS method=LoginTest.valiodLoginTest()[pri:0, instance:Tests.LoginTest@6c80d78a] output={null}]]]>
+                <![CDATA[customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[customer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@44ebcd03]" started-at="2023-04-24T21:50:20 EEST" name="recordFailure" finished-at="2023-04-24T21:50:20 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@44ebcd03] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@6c80d78a]" started-at="2023-04-20T21:25:35 EEST" name="tearDown" finished-at="2023-04-20T21:25:44 EEST" duration-ms="8795" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@44ebcd03]" started-at="2023-04-24T21:50:20 EEST" name="tearDown" finished-at="2023-04-24T21:50:26 EEST" duration-ms="5944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.LoginTest -->
-    </test> <!-- Login -->
+    </test> <!-- LoginChrome -->
+    <test started-at="2023-04-24T21:49:23 EEST" name="LoginEdge" finished-at="2023-04-24T21:50:40 EEST" duration-ms="76298">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@10e31a9a]" started-at="2023-04-24T21:49:23 EEST" name="setup" finished-at="2023-04-24T21:50:27 EEST" duration-ms="63792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://keyfood.ro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@10e31a9a]" started-at="2023-04-24T21:50:27 EEST" name="validLoginTest" finished-at="2023-04-24T21:50:33 EEST" duration-ms="5682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[customer@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@10e31a9a]" started-at="2023-04-24T21:50:33 EEST" name="recordFailure" finished-at="2023-04-24T21:50:33 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@10e31a9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@10e31a9a]" started-at="2023-04-24T21:50:33 EEST" name="tearDown" finished-at="2023-04-24T21:50:40 EEST" duration-ms="6762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- LoginEdge -->
   </suite> <!-- Suite1 -->
 </testng-results>

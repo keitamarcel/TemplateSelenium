@@ -4,8 +4,8 @@
 		<listener class-name = "utils.TestNGListener" />
 	</listeners>
   <test name="Login" >
-  <parameter name="user" value="TestUser"> </parameter>
-  <parameter name="pass" value="12345@67890"> </parameter>
+  <parameter name="user" value="customer"> </parameter>
+  <parameter name="pass" value="customer@123"> </parameter>
   
   <parameter name ="browser" value="chrome"> </parameter>
   <parameter name="appUrl" value="http://keyfood.ro"></parameter>

@@ -30,6 +30,10 @@ public class SeleniumWrappers {
 	}
 	
 	
+	public boolean elementIsDisplayed(By locator) {
+		return driver.findElement(locator).isDisplayed();
+	}
+	
 	
 	
 	
